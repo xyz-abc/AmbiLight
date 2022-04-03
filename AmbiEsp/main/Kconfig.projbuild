@@ -1,0 +1,19 @@
+menu "AmbiEsp config"
+
+    config AMBI_UART_PORT_NUM
+        int "UART port"
+        default 2
+
+    config AMBI_UART_SPEED
+        int "UART communication speed"
+        default 115200
+
+    config AMBI_UART_RX
+        int "UART RX pin"
+        default 16
+
+    config AMBI_UART_TXD
+        int "UART TX pin"
+        default 17
+
+endmenu
